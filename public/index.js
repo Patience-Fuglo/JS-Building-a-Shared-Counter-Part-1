@@ -3,6 +3,8 @@ function main(){
     const incrementButton = document.querySelector('#increment-button');
     const decrementButton = document.querySelector('#decrement-button');
 
+    fetch('http://192.168.1.154:9000')
+
     let countValue = 0;
 
     function increment(){
